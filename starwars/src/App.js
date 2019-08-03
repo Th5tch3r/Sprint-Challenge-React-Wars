@@ -32,7 +32,8 @@ const App = () => {
       {characters.map(person => {
         return <CharacterCard 
           name = {person.name}
-          birthYear = {person.birthYear}
+          key = {person.name}
+          height = {person.height}
           gender = {person.gender}
           />
 
